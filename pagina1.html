@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Napo vive THML</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo">
+        <span>Maquetación HTML</span>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Inicio</a>|</li>
+                <li><a href="pagina1.html">Formulario</a>|</li>
+                <li><a href="pagina2.html">Lugares</a>|</li>
+                <li><a href="pagina3.html">Gastronomía</a>|</li>
+                <li><a href="pagina4.html">Cultura</a>|</li>
+                <li><a href="pagina5.html">Fauna</a>|</li>
+            </ul>
+        </nav>
+        <h2>Formulario de Turismo</h2>
+        <form action="/submit" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label for="apellido">Apellido:</label><br>
+            <input type="text" id="apellido" name="apellido"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="telefono">Teléfono:</label><br>
+            <input type="tel" id="telefono" name="telefono"><br>
+            <label for="destino">Destino:</label><br>
+            <input type="text" id="destino" name="destino"><br>
+            <label for="fecha">Fecha de viaje:</label><br>
+            <input type="date" id="fecha" name="fecha"><br>
+            <label for="comentarios">Comentarios:</label><br>
+            <textarea id="comentarios" name="comentarios"></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </header>
